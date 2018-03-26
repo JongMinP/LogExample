@@ -1,4 +1,4 @@
-package com.bigdata2017.logexample3.controller;
+package com.cafe24.logexample3.controller;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class ExampleController3 {
 	
 	/**
-	 *  Logger 생성
+	 *  Logger 생성 (나중에 AOP를 이용해서 밖으로 빼기)
 	 */
 	private static final Log LOG = LogFactory.getLog( ExampleController3.class );
 	

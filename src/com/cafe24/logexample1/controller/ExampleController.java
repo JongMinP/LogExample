@@ -1,4 +1,4 @@
-package com.bigdata2017.logexample1.controller;
+package com.cafe24.logexample1.controller;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -34,6 +34,7 @@ public class ExampleController {
 		 */
 		LOG.debug( "#ex1 - debug log" );
 		LOG.info( "#ex1 - info log" );
+		// warn 해서 밑에 2개만 
 		LOG.warn( "#ex1 - warn log" );
 		LOG.error( "#ex1 - error log" );
 		
